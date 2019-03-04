@@ -62,7 +62,7 @@ for fi in fileLists:
     fname = os.path.splitext(os.path.basename(fi))
 
     # Supported format
-    if fname[1][1:] != possible_ext[0] and fname[1][1:] != possible_ext[1]:
+    if fname[1][1:].lower() != possible_ext[0] and fname[1][1:].lower() != possible_ext[1]:
         if fname[0] != output_path: message(fi + " isn't in .wav/.mp3 Format", 2)
         continue
 
