@@ -29,7 +29,7 @@ config.ini内を書き換えることで切り取り等の細かい設定を変�
 [setting]
 min_silence_len = 1000	#1000ms以上無音があれば分割
 silence_thresh = -45	#-45dB以下を無音と判別させる
-keep_silence = 500		#分割後500msくらい無音を残す
+keep_silence = 500  	#分割後500msくらい無音を残す
 ```
 
 
